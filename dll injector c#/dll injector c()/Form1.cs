@@ -200,7 +200,7 @@ namespace dll_injector_c__
         }
 
         private static string DLLP { get; set; }
-        private void TextBox1_TextChanged_1(object sender, EventArgs e)
+        private void TextBox1_TextChanged(object sender, EventArgs e)
         {
             DLLP = TextBox1.Text;
             TextBox1.ReadOnly = true;
